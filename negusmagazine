@@ -1,0 +1,18 @@
+# Navigate to your frontend folder
+cd path/to/negus-chronicles/frontend
+
+# Initialize Git
+git init
+
+# Connect to your GitHub account
+git config --global user.name "leNegus89"
+git config --global user.email "your-email@example.com"
+
+# Link to your repository
+git remote add origin https://github.com/leNegus89/negus-chronicles.git
+
+# Commit and push code
+git add .
+git commit -m "Initial frontend deployment"
+git branch -M main
+git push -u origin main
